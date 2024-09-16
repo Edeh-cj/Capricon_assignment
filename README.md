@@ -1,6 +1,7 @@
 # Capricon's speakprompt
 
 A Flutter app that generates a story from a user prompt, you would have the user input a prompt, make an HTTP request to a story generation API, then send the generated story to a text-to-speech API, retrieve the speech audio, and finally play it out loud. 
+
 Configured for Android alone.
 
 ## Issues & Workarounds
