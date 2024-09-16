@@ -1,16 +1,8 @@
 # speakprompt
 
-A new Flutter project.
+A Flutter app that generates a story from a user prompt, you would have the user input a prompt, make an HTTP request to a story generation API, then send the generated story to a text-to-speech API, retrieve the speech audio, and finally play it out loud. 
+Configured for Android alone.
 
-## Getting Started
+## Issues & Workarounds
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I initially explored using OpenAI and Claude for story generation as instructed, but due to pricing and verification issues, I couldn't find a suitable endpoint. Instead, I switched to the free versions of Google's Text-to-Text API for story generation and Speechify's Text-to-Speech API for converting the story to audio, which offered a more accessible solution.
